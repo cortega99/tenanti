@@ -28,7 +28,7 @@
         "illuminate/console": "^10.0",
         "illuminate/filesystem": "^10.0",
         "illuminate/support": "^10.0",
-        "orchestra/model": "^6.0",
+        "orchestra/model": "dev-laravel10",
         "orchestra/support": "^6.1"
     },
     "require-dev": {
@@ -45,5 +45,11 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cortega99/model"
+        }
+    ]
 }
