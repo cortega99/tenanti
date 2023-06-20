@@ -28,7 +28,7 @@
         "illuminate/console": "^10.0",
         "illuminate/filesystem": "^10.0",
         "illuminate/support": "^10.0",
-        "orchestra/model": "dev-laravelv10",
+        "orchestra/model": "dev-laravel10",
         "orchestra/support": "^6.1"
     },
     "require-dev": {
