@@ -29,7 +29,7 @@
         "illuminate/filesystem": "^10.0",
         "illuminate/support": "^10.0",
         "orchestra/model": "dev-laravel10",
-        "orchestra/support": "^6.1"
+        "orchestra/support": "dev-laravel10"
     },
     "require-dev": {
         "laravel/tinker": "^2.5",
