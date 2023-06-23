@@ -142,7 +142,12 @@ class Migrator extends BaseMigrator
         // in the application. A migration repository keeps the migrate order.
         $this->repository->log($file, $batch);
 
-        $this->note("<info>Migrated [{$this->entity->getTable()}:{$key}]:</info> {$file}");
+        /*
+            This method should be updated in order to be compatible with the 
+            Laravel's 10 version Illuminate\Database\Migrations\Migrator::write()
+            method.
+        */
+        // $this->note("<info>Migrated [{$this->entity->getTable()}:{$key}]:</info> {$file}");
     }
 
     /**
